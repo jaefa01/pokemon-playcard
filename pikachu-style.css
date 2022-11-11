@@ -1,0 +1,348 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.hauptrahmen {
+
+    background: linear-gradient(to bottom right, #fdad34, #FFB75E);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(53, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16/9;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main {
+    background-color: rgb(245, 209, 7);
+    background: linear-gradient(to top right, #fcd87f 0%, #f8b500 50%, #fcd87f 100%);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: inset 1px 1px 5px rgb(53, 49, 49);
+}
+
+.basis {
+    background: linear-gradient(to top left, rgb(189, 186, 186) 0%, rgba(255, 255, 255, 1) 50%, rgb(189, 186, 186) 100%);
+    float: left;
+    margin-left: -32px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: large;
+    font-style: oblique;
+    -webkit-text-stroke: 1px rgb(175, 164, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 15%;
+    box-shadow: 1px 2px 5px rgb(53, 49, 49);
+    font-weight: 900;
+
+}
+
+
+.head-mitte {
+    float: left;
+    margin-top: 5px;
+    font-size: 40px;
+    font-stretch: ultra-condensed;
+}
+
+.head-rechts-1 {
+    float: right;
+    margin-top: 31px;
+    margin-right: 70px;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    font-weight: 900;
+}
+
+.head-rechts-2 {
+    float: right;
+    margin-top: 9px;
+    margin-right: -79px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.elektro_energie {
+    display: flex;
+    float: right;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.bildrahmen {
+    background: linear-gradient(to top left, rgb(189, 186, 186) 0%, rgb(240, 238, 238) 50%, rgb(189, 186, 186) 100%);
+    margin-top: 56px;
+    margin-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 17px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(214, 217, 219);
+    box-shadow: 1px 1px 5px rgb(53, 49, 49);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bild {
+    background-image: linear-gradient(rgba(255, 50, 50, 0.5), rgba(66, 242, 255, 0.5)), url(Bilder/pokeball.png);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: -15px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border: 1px solid rgb(214, 217, 219);
+    box-shadow: inset 1px 1px 5px rgb(53, 49, 49);
+
+}
+
+.bild_daten {
+    background: linear-gradient(to top left, rgb(189, 186, 186) 0%, rgba(240, 238, 238) 50%, rgb(189, 186, 186) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -15px;
+    margin-top: 17px;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(214, 217, 219);
+    box-shadow: inset 1px 1px 5px rgb(53, 49, 49);
+    font-size: x-small;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.attacke_1_bild {
+    display: flex;
+    float: left;
+    height: 25px;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+
+.attacke_2_bild {
+    display: flex;
+    float: left;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    margin-left: -8px;
+    margin-right: 10px;
+}
+
+.attacke_titel {
+    margin-left: 120px;
+}
+
+.attacke_wert_1,
+.attacke_wert_2 {
+    float: right;
+    margin-top: -25px;
+    margin-right: -10px;
+}
+
+.attacke_wert_2 {
+    margin-right: 2px;
+}
+
+.attacke_inhalt {
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.bild_schwäche,
+.bild_rückzug,
+.bild_resistenz
+{
+    height: 25px;
+}
+
+.eigenschaften{
+    float: left;
+    white-space: nowrap;
+    margin-left: -65px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative; left:30px
+}
+
+.Row {
+    display: table;
+    table-layout: fixed;
+    margin: 0;
+}
+
+.schwäche,
+.resistenz,
+.rückzug,
+.space,
+.rückzug_bild,
+.footer {
+    display: table-cell;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#x{
+    font-size: 15px;
+}
+#minus{
+    font-size: 35px;
+    font-weight: lighter; 
+    position: relative;  top:6px
+}
+
+.schwäche,
+.resistenz {
+    padding: 2px;
+
+    
+}
+
+.space {
+    padding: 20px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.schwäche_bild,
+.resistenz_bild
+ {
+    height: 20px;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: -5px;
+    position: relative;  bottom:2px
+}
+
+.rückzug_bild{
+    height: 20px;
+    padding: 0;
+    padding-left: 10px;
+    position: relative;  top:3px
+}
+
+.eigenschaft_wert{
+    font-size: 20px;
+    position: relative;  top:4px
+}
+
+.schwäche_resistenz
+{
+    margin-left: -10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background: linear-gradient(to top left, rgb(189, 186, 186) 0%, rgba(255, 255, 255, 1) 50%, rgb(189, 186, 186) 100%);
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px rgb(53, 49, 49);
+}
+
+.eigenschaft_rückzug{
+    position: relative; left: 25px;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 90px;
+    background: linear-gradient(to top left, rgb(189, 186, 186) 0%, rgba(255, 255, 255, 1) 50%, rgb(189, 186, 186) 100%);
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px rgb(53, 49, 49);
+}
+
+.footer_div{
+margin-bottom: -5px;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+    position: relative; top: -10px;
+}
+
+.footer_links{
+    position: relative; right: 10px;
+    position: relative; top: 1px;
+    line-height: 1.4;
+}
+
+.footer_rechts{
+    position: relative; left: 60px;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+#illustration,
+#sm110
+{
+    font-style: oblique;
+    font-weight: 600;
+}
+.promo_bild{
+    height: 20px;
+}
+
+#sm110{
+    font-size: larger;
+    position: relative; bottom: 4px;
+}
+
+#c2017pokemon{
+    font-size: 8px;
+    position: relative; top: -7px;
+    
+}
